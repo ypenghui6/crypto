@@ -7,7 +7,7 @@
 #include <stdio.h>
 
 #include "curvepoint_fp.h"
-#include "final_expo.h"
+#include "final_expox.h"
 #include "fp12e.h"
 #include "fp2e.h"
 #include "fp6e.h"
@@ -115,7 +115,7 @@ void optate(fp12e_t rop, const twistpoint_fp2_t op1, const curvepoint_fp_t op2)
 	fp12e_t d;
 	fp12e_setone(d);
 	optate_miller(rop, op1, op2);
-	final_expo(rop);
+	final_expox(rop);
 	retone = fp2e_iszero(op1->m_z);
 	retone |= fpe_iszero(op2->m_z);
 	fp12e_cmov(rop, d, retone);

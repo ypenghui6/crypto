@@ -1,10 +1,10 @@
 /*
- * File:   dclxvi-20130329/final_expo.c
+ * File:   dclxvi-20130329/final_expox.c
  * Author: Ruben Niederhagen, Peter Schwabe
  * Public Domain
  */
 
-#include "final_expo.h"
+#include "final_expox.h"
 #include "fpe.h"
 #include <stdio.h>
 
@@ -51,7 +51,7 @@ static void fp12e_powu_special_square(fp12e_t rop, const fp12e_t op)
 	fp12e_powv_special_square(rop, rop);
 }
 
-void final_expo(fp12e_t rop)
+void final_expox(fp12e_t rop)
 {
 	/* This all has to change to support scalar_t instead of mpz_t */
 	// First part: (p^6 - 1)
