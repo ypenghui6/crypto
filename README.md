@@ -4,4 +4,4 @@ This repository holds cryptography libraries created for
 **Proceed with caution**: these libraries are experimental and have
 not been proven correct.
 
-Documentation: https://godoc.org/vuvuzela.io/crypto
+Documentation: https://godoc.org/ypenghui6/crypto

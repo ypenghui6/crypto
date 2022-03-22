@@ -7,7 +7,7 @@ package shuffle
 import (
 	"testing"
 
-	"vuvuzela.io/crypto/rand"
+	"ypenghui6/crypto/rand"
 )
 
 func TestShuffle(t *testing.T) {

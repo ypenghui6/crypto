@@ -3,12 +3,12 @@
 // license that can be found in the LICENSE file.
 
 // Package onionbox implements onion encryption.
-package onionbox // import "vuvuzela.io/crypto/onionbox"
+package onionbox // import "ypenghui6/crypto/onionbox"
 
 import (
 	"golang.org/x/crypto/nacl/box"
 
-	"vuvuzela.io/crypto/rand"
+	"ypenghui6/crypto/rand"
 )
 
 // Overhead of one layer

@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package rand implements a faster CSPRNG.
-package rand // import "vuvuzela.io/crypto/rand"
+package rand // import "ypenghui6/crypto/rand"
 
 import (
 	"crypto/rand"

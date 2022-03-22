@@ -9,7 +9,7 @@
 // http://cseweb.ucsd.edu/~mihir/cse208-06/libert-quisquater-ibe-acns-05.pdf.
 // This schemes transforms the BF-IBE scheme (BasicIndent) into an
 // IND-ID-CCA2 secure scheme.
-package ibe // import "vuvuzela.io/crypto/ibe"
+package ibe // import "ypenghui6/crypto/ibe"
 
 import (
 	"crypto/rand"
@@ -21,7 +21,7 @@ import (
 	"golang.org/x/crypto/nacl/secretbox"
 	"golang.org/x/crypto/sha3"
 
-	"vuvuzela.io/crypto/bn256"
+	"ypenghui6/crypto/bn256"
 )
 
 const sizeOfG1 = 64

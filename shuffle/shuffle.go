@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package shuffle implements cryptographic shuffling.
-package shuffle // import "vuvuzela.io/crypto/shuffle"
+package shuffle // import "ypenghui6/crypto/shuffle"
 
 import (
 	"bufio"

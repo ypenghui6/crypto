@@ -8,7 +8,7 @@
 // "Aggregate and Verifiably Encrypted Signatures from Bilinear Maps"
 // by Boneh, Gentry, Lynn, and Shacham (Eurocrypt 2003):
 // https://www.iacr.org/archive/eurocrypt2003/26560416/26560416.pdf.
-package bls // import "vuvuzela.io/crypto/bls"
+package bls // import "ypenghui6/crypto/bls"
 
 import (
 	"crypto/sha256"
@@ -18,7 +18,7 @@ import (
 	"io"
 	"math/big"
 
-	"vuvuzela.io/crypto/bn256"
+	"ypenghui6/crypto/bn256"
 )
 
 const CompressedSize = 32

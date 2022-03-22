@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"testing"
 
-	"vuvuzela.io/crypto/bn256ref"
+	"ypenghui6/crypto/bn256ref"
 )
 
 func (e *fp2e) FromRef(er *bn256ref.GFp2) *fp2e {
